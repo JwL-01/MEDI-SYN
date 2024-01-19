@@ -4,13 +4,8 @@ This project presents a study of the application of Generative Adversarial Netwo
 
 ## Important Links
 
-| [Timesheet](https://1sfu-my.sharepoint.com/:x:/g/personal/kabhishe_sfu_ca/EUfW7Bq7M2ZNiWasPSkAi8QBwBfu-U5BSOfiO9znWyNtYQ?e=ryKNNX) | [Slack channel](https://sfucmpt340fall2023.slack.com/archives/C05SZPSJC5V) | [Project report](https://drive.google.com/file/d/1MOb_nNaPBgQsmuYrBPUcsizPXZIFY_0G/view?usp=sharing) |
+[Project report](https://drive.google.com/file/d/1MOb_nNaPBgQsmuYrBPUcsizPXZIFY_0G/view?usp=sharing)
 |-----------|---------------|-------------------------|
-
-- Timesheet: [Link](https://1sfu-my.sharepoint.com/:x:/g/personal/kabhishe_sfu_ca/EUfW7Bq7M2ZNiWasPSkAi8QBwBfu-U5BSOfiO9znWyNtYQ?e=ryKNNX)
-- Slack channel: [Link](https://sfucmpt340fall2023.slack.com/archives/C05SZPSJC5V)
-- Project report: [Link](https://drive.google.com/file/d/1MOb_nNaPBgQsmuYrBPUcsizPXZIFY_0G/view?usp=sharing)
-
 
 ## Video/demo/GIF
 - Demo Video: [Link](https://www.youtube.com/watch?v=T6O6fFIYxko)
