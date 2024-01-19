@@ -5,7 +5,7 @@ This project presents a study of the application of Generative Adversarial Netwo
 ## Project Report Link
 [View Full Project Report](https://drive.google.com/file/d/1MOb_nNaPBgQsmuYrBPUcsizPXZIFY_0G/view?usp=sharing)
 
-[![Project report](https://github.com/JwL-01/MEDI-SYN/assets/38309953/8100dd75-b57d-4b23-81be-3a747dae8b4d)](https://drive.google.com/file/d/1MOb_nNaPBgQsmuYrBPUcsizPXZIFY_0G/view?usp=sharing)
+[![Project report](https://github.com/JwL-01/MEDI-SYN/assets/38309953/8367426b-132f-46cd-ae1a-1785e955b5d0)](https://drive.google.com/file/d/1MOb_nNaPBgQsmuYrBPUcsizPXZIFY_0G/view?usp=sharing)
 
 
 
