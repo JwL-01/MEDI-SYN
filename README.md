@@ -3,7 +3,7 @@
 This project presents a study of the application of Generative Adversarial Networks (GANs) and Denoising Diffusion Probabilistic Models (DDPMs) in medical imaging, comparing the generating performance of models. 
 
 ## Project Report Link
-[View Project Report](https://drive.google.com/file/d/1MOb_nNaPBgQsmuYrBPUcsizPXZIFY_0G/view?usp=sharing)
+[View Full Project Report](https://drive.google.com/file/d/1MOb_nNaPBgQsmuYrBPUcsizPXZIFY_0G/view?usp=sharing)
 
 [![Project report](https://github.com/JwL-01/MEDI-SYN/assets/38309953/8100dd75-b57d-4b23-81be-3a747dae8b4d)](https://drive.google.com/file/d/1MOb_nNaPBgQsmuYrBPUcsizPXZIFY_0G/view?usp=sharing)
 
