@@ -1,0 +1,74 @@
+// Stepwise Reverse Diffusion Network
+digraph {
+	rankdir=LR
+	node [shape=box]
+	subgraph cluster_encoder {
+		rankdir=TB
+		label=Encoder
+		E1 [label="EncoderBlock 1
+Conv2D(128->64)
+BatchNorm2D
+SiLU
+SE-Attention"]
+		E2 [label="EncoderBlock 2
+Conv2D(64->32)
+BatchNorm2D
+SiLU
+SE-Attention"]
+		E3 [label="EncoderBlock 3
+Conv2D(32->16)
+BatchNorm2D
+SiLU
+SE-Attention"]
+		E4 [label="EncoderBlock 4
+Conv2D(16->8)
+BatchNorm2D
+SiLU
+SE-Attention"]
+		E1 -> E2
+		E2 -> E3
+		E3 -> E4
+	}
+	subgraph cluster_decoder {
+		rankdir=TB
+		label=Decoder
+		D1 [label="DecoderBlock 1
+ConvTrans2D(8->16)
+BatchNorm2D
+SiLU
+SE-Attention"]
+		D2 [label="DecoderBlock 2
+ConvTrans2D(16->32)
+BatchNorm2D
+SiLU
+SE-Attention"]
+		D3 [label="DecoderBlock 3
+ConvTrans2D(32->64)
+BatchNorm2D
+SiLU
+SE-Attention"]
+		D4 [label="DecoderBlock 4
+ConvTrans2D(64->128)
+BatchNorm2D
+SiLU
+SE-Attention"]
+		D1 -> D2
+		D2 -> D3
+		D3 -> D4
+	}
+	I [label="Input
+1x128x128" shape=parallelogram]
+	F [label="FiLM
+512"]
+	O [label="Output
+Tanh"]
+	T [label="Time
+Representation" shape=parallelogram]
+	E4 -> F
+	F -> D1
+	E1 -> D3 [style=dashed]
+	E2 -> D2 [style=dashed]
+	E3 -> D1 [style=dashed]
+	T -> F [style=dashed]
+	D4 -> O
+}
