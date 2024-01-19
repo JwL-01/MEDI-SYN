@@ -2,10 +2,12 @@
 # MEDI-SYN: Medical Image Synthesis
 This project presents a study of the application of Generative Adversarial Networks (GANs) and Denoising Diffusion Probabilistic Models (DDPMs) in medical imaging, comparing the generating performance of models. 
 
-## Important Links
+## Project Report Link
+[View Full Project Report](https://drive.google.com/file/d/1MOb_nNaPBgQsmuYrBPUcsizPXZIFY_0G/view?usp=sharing)
 
-[Project report](https://drive.google.com/file/d/1MOb_nNaPBgQsmuYrBPUcsizPXZIFY_0G/view?usp=sharing)
-|-----------|---------------|-------------------------|
+[![Project report](https://github.com/JwL-01/MEDI-SYN/assets/38309953/8367426b-132f-46cd-ae1a-1785e955b5d0)](https://drive.google.com/file/d/1MOb_nNaPBgQsmuYrBPUcsizPXZIFY_0G/view?usp=sharing)
+
+
 
 ## Video/demo/GIF
 - Demo Video: [Link](https://www.youtube.com/watch?v=T6O6fFIYxko)
